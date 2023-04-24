@@ -15,4 +15,5 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 # Set up the LLMS
 llms = OpenAI(model_name="text-davinci-003", temperature=0)
 
+# Set up the prompt
 
